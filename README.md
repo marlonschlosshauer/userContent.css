@@ -2,9 +2,13 @@
 
 A collection of CSS changes I do for certain sites.
 
-Currently provides:
+Major changes:
 - Dark theme for YCombinator
 - Removes Sidebar on Stackoverflow
+
+Minor changes:
+- Removes an annoying button on YouTube
+- Hides your karma on YC
 
 ## Requirements
 
