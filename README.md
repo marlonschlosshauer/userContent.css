@@ -1,6 +1,6 @@
 # userContent.css
 
-A collection of CSS changes I do for certain sites.
+A collection of CSS changes I apply to existing websites.
 
 Major changes:
 - Dark theme for YCombinator
