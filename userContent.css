@@ -137,4 +137,18 @@
 	    background:  #1a1a1a !important;
 	}
     }
+
+    /* don't worry about numbers */
+    #karma {
+	visibility: hidden;
+	position: relative;
+    }
+
+    #karma::after {
+	content: "∞";
+	visibility: visible;
+	position: absolute;
+	top: 3px;
+	left: 2px;
+    }
 }
