@@ -1,3 +1,14 @@
+/* TODO: Find way to use regex in url-prefix, to combine stackexchange and stackoverflow */
+@-moz-document url-prefix("https://security.stackexchange.com") {
+    #sidebar, #left-sidebar {
+	display: none !important;
+    }
+
+    #mainbar, #content {
+	width: 100% !important;
+    }
+}
+
 @-moz-document url-prefix("https://stackoverflow.com") {
     #sidebar {
 	display: none !important;

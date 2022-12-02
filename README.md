@@ -4,7 +4,8 @@ A collection of CSS changes I apply to existing websites.
 
 Major changes:
 - Dark theme for YCombinator
-- Removes Sidebar on Stackoverflow
+- Removes sidebar on Stackoverflow
+- Remove both sidebars on Stackexchange (only `security.` for now)
 
 Minor changes:
 - Removes an annoying button on YouTube
