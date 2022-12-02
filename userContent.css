@@ -8,55 +8,6 @@
     }
 }
 
-@-moz-document url-prefix("https://ecosia.org") {
-    @media (prefers-color-scheme: dark) {
-	:root {
-	    --color-brand-primary:#008009;
-	    --color-brand-secondary:#275243;
-	    --color-error:#008009;
-	    --color-success:#008009;
-	    --color-disabled:#737373;
-	    --color-button-background-primary:#008009;
-	    --color-button-background-primary-active:#008009;
-	    --color-button-background-primary-hover:#008009;
-	    --color-button-background-secondary:#333;
-	    --color-button-background-secondary-active:#f8f8f6;
-	    --color-button-background-secondary-hover:#f8f8f6;
-	    --color-button-content-primary:#333;
-	    --color-button-content-secondary:#333;
-	    --color-button-content-tertiary:#008009;
-	    --color-button-border:#1a1a1a;
-	    --color-background-primary:#333;
-	    --color-background-secondary:#f8f8f6;
-	    --color-background-tertiary:#333;
-	    --color-background-quaternary:#f0f0eb;
-	    --color-highlighter:#008009;
-	    --color-highlight-primary:#008009;
-	    --color-overlay-primary:rgba(0,0,0,0.3);
-	    --color-overlay-secondary:hsla(0,0%,100%,0.7);
-	    --color-text-primary:#f8f8f6;
-	    --color-text-secondary:#f8f8f6;
-	    --color-text-tertiary:#fff;
-	    --color-link-primary:#0094c7;
-	    --color-link-secondary:#737373;
-	    --color-url:#333;
-	    --color-link-results-default:#0094c7;
-	    --color-link-results-visited:#008009;
-	    --color-decorative-icon:#333;
-	    --color-video-background:#000;
-	    --color-elevation-layer-1:#333;
-	    --color-elevation-layer-2:#333;
-	    --color-decorative-border-1:#737373;
-	    --color-focused:#0094c7;
-	    --color-form-border-default:#737373;
-	    --color-form-border-hover:#737373;
-	    --color-form-border-primary-active:#0094c7;
-	}
-    }
-}
-
-
-
 @-moz-document url-prefix("https://www.reddit.com/--") {
     /* Hide useless stuff*/
     span.score, .side, .footer-parent, #redesign-beta-optin-btn, #ecb, .give-gold-button, .crosspost-button, .subreddit-subscribe, .awardings-bar, div.score.likes, div.score.unvoted, div.score.dislikes, #sr-bar, .dropdown.srdrop .post-sharing-button, #sr-header-area .dropdown.srdrop, #header-img, #header-bottom-right, .presence_circle, #sr-more-link, .sr-list > .flat-list.sr-bar.hover:nth-of-type(1), .separator, .listing-chooser.initialized, .hover.pagename.redditname
