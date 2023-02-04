@@ -6,6 +6,7 @@ Major changes:
 - Dark theme for YCombinator
 - Removes sidebar on Stackoverflow
 - Remove both sidebars on Stackexchange (only `security.` for now)
+- Removes karma on (new) reddit
 
 Minor changes:
 - Removes an annoying button on YouTube

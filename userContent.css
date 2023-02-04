@@ -47,3 +47,17 @@
 	left: 2px;
     }
 }
+
+
+
+@-moz-document url-prefix("https://www.reddit.com") {
+    /* Remove personal karma indicator on top right */
+    .icon-karma_fill + span {
+	display: none;
+    }
+
+    /* Remove karma indicator on posts and comments */
+    div[id^="vote-arrows-"] > div {
+	display: none;
+    }
+}
